@@ -9,9 +9,9 @@ export default createGlobalStyle`
     }
 
     body, button, a {
-      color: ${({ theme }) => theme.COLORS.BLUE};
+      color: ${({ theme }) => theme.COLORS.TEXT};
       font-family: "Mukta", sans-serif;
-      font-size: 1.4rem; 
+      font-size: 1.5rem; 
       font-weight: 400;
     }
 
