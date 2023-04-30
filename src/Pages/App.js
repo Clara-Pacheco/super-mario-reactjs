@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
   > main {
     height: 100vh;
 
@@ -18,7 +19,7 @@ export const Container = styled.div`
       height: inherit;
       position: fixed;
       inset: 0;
-      background: linear-gradient(109deg, rgba(10, 12, 16, 0.999) 15%, rgba(10, 12, 16, 0.2) 60%, rgba(10, 12, 16, 0.99) 85%);
+      background: linear-gradient(109deg, rgba(10, 12, 16, 0.999) 15%, rgba(10, 12, 16, 0.5) 50%, rgba(10, 12, 16, 0.99) 85%);
 
       z-index:-1;
     }
@@ -30,6 +31,8 @@ export const Container = styled.div`
       margin-top: 80px;
       margin-right: 100px;
     }
+
+   
   }
 `;
 
