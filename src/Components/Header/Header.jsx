@@ -18,34 +18,44 @@ export function Header() {
     <Container>
       <div>
         <img src={logoCap} alt="Mario's cap" />
-        <ListItem menuItem="Home" />
-        <ListItem menuItem="Story" />
-        <ListItem menuItem="Wallpapers" />
-        <ListItem menuItem="Trailer" />
+        <ListItem 
+          menuItem="Home"
+          url="https://www.thesupermariobros.movie/home/"
+        />
+        <ListItem 
+          menuItem="Story"
+          url="https://www.thesupermariobros.movie/synopsis/" />
+        <ListItem 
+          menuItem="Wallpapers"
+          url="https://www.thesupermariobros.movie/character-gallery/" />
+        <ListItem 
+          menuItem="Trailer"
+          url="https://www.thesupermariobros.movie/videos/"
+        />
       </div>
       <div>
           <Social
-            url='http://www.facebook.com'
+            url='https://www.facebook.com/supermariomovie'
             imgSrc = {facebookLogo}
             textAlt = 'Facebook Logo'
           />
           <Social
-            url='http://www.instagram.com'
+            url='https://www.instagram.com/supermariomovie/'
             imgSrc = {instagramLogo}
             textAlt = 'Instagram Logo'
           />
           <Social
-            url='http://www.tiktok.com'
+            url='https://www.tiktok.com/@supermariomovie'
             imgSrc = {tiktokLogo}
             textAlt = 'TikTok Logo'
           />
           <Social
-            url='http://www.twitter.com'
+            url='https://twitter.com/supermariomovie'
             imgSrc = {twitterLogo}
             textAlt = 'Twitter Logo'
           />
           <Social
-            url='http://www.youtube.com'
+            url='https://www.youtube.com/c/illumination'
             imgSrc = {youtubeLogo}
             textAlt = 'YouTube Logo'
           />
