@@ -8,8 +8,6 @@ export const Container = styled.div`
     margin-right: 150px;
     margin-left: 150px;
 
-    border: 3px solid white;
-
     display: flex;
     justify-content: space-between;
 
