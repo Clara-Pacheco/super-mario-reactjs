@@ -9,8 +9,6 @@ export function MovieInfo({ imgUrl, altText, text}) {
         alt={altText}
       />
       <p>{text}</p>
-      botão
-      botão
     </Container>
   )
 }
