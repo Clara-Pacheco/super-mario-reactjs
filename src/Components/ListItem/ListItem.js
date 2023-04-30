@@ -6,7 +6,7 @@ export const Container = styled.li`
 
 > a {
     &:hover {
-      transform: scale(1.1)
+      color: ${({ theme })=> theme.COLORS.RED};
     }
 
     }
