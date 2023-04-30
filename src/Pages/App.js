@@ -8,6 +8,17 @@ export const Container = styled.div`
     margin-left: 150px;
 
     border: 3px solid white;
+
+    display: flex;
+    justify-content: space-between;
+
+    > img {
+      width: 680px;
+      height: 750px;
+
+      margin-top: 80px;
+      margin-right: 100px;
+    }
   }
 `;
 
