@@ -1,3 +1,7 @@
+import { useEffect } from 'react'
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 import { Container, Video } from './App.js'
 
 import backgroundVideo from '../assets/background-video.mp4'
@@ -9,6 +13,9 @@ import { MovieInfo } from '../Components/MovieInfo/MovieInfo.jsx'
 import { Button } from '../Components/Button/Button.jsx'
 
 export function App() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
  return (
   <Container>
     <Header />
@@ -46,6 +53,10 @@ export function App() {
         </div>
 
         <img 
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out" 
           src={marioAndLuigi}
           alt="Mario and Luigi"
         />
