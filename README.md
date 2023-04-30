@@ -36,7 +36,7 @@ Main points addressed in the project:
 
 The end result of this challenge should be something around:
 
-![Project´s preview]()  
+![Project´s preview](https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/preview.gif)  
 
 <br>  
 
