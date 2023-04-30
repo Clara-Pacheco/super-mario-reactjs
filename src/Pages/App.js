@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  
+  overflow-y: hidden;
 
   > main {
-    height: 100vh;
+    height: 100%;
 
     margin-right: 150px;
     margin-left: 150px;
