@@ -25,7 +25,4 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-
-  border: 2px solid green;
-
 `;
