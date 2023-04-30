@@ -1,6 +1,6 @@
 <div align="center">
-<img width="200px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-cap.png" alt="">&nbsp;&nbsp;&nbsp;
-<img width="200px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-movie.png"  alt="">
+<img width="150px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-cap.png" alt="">&nbsp;&nbsp;&nbsp;
+<img width="150px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-movie.png"  alt="">
 <br>
 <br>
 <p align="center">
