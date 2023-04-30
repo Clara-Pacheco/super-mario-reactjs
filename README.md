@@ -1,6 +1,7 @@
 <div align="center">
-<img width="220px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-cap.png" alt="">&nbsp;&nbsp;&nbsp;
-<img width="150px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-movie.png"  alt="">
+<img width="150px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-cap.png" alt="">&nbsp;&nbsp;&nbsp;
+<img width="200px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-movie.png"  alt="">
+<br>
 <br>
 <p align="center">
 <img src="https://img.shields.io/github/last-commit/Clara-Pacheco/super-mario-reactjs"/>&nbsp;&nbsp;&nbsp;
@@ -11,7 +12,7 @@
 
 <br>
 
-# 🎬 Super Mario Bros - The Movie
+# 🎬 The Super Mario Bros - Movie
 
 ![Project cover](https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/preview.png)
 
@@ -29,14 +30,13 @@ Main points addressed in the project:
 - Aos libray for animation;
 - Effect react hook;
 
-
 <br>
 
 ## 💻 Preview
 
 The end result of this challenge should be something around:
 
-![Project´s preview](https://github.com/Clara-Pacheco/nlw-sports-reactjs/blob/main/src/assets/gif_preview.gif)  
+![Project´s preview]()  
 
 <br>  
 
@@ -60,7 +60,9 @@ The end result of this challenge should be something around:
 
 ##  📕 Informações Extras  
 
-<p>This is a project that originally, was build in HTML, CSS and VanillaJS and I decided to build it in ReactJS to practice and test my skills with this framrwork. You can find the original project in: 
+<p>This is a project that, originally, was built in HTML, CSS, and Vanilla JS and I decided to build it in ReactJS to practice and test my skills with this framework. You can find the original project in the following:
+
+<br>
 
 <a href="https://www.youtube.com/watch?v=6Ok-kUrBGp8" target="_blank">
  <img src="https://img.youtube.com/vi/6Ok-kUrBGp8/maxresdefault.jpg" width="100%" height="auto" />
