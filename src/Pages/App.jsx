@@ -1,8 +1,10 @@
 import { Container, Video } from './App.js'
 
 import backgroundVideo from '../assets/background-video.mp4'
+import movieLogo from '../assets/logo-movie.png'
 
 import { Header } from '../Components/Header/Header.jsx'
+import { MovieInfo } from '../Components/MovieInfo/MovieInfo.jsx'
 
 export function App() {
  return (
@@ -13,9 +15,27 @@ export function App() {
      muted
      >
       <source src={backgroundVideo} type="video/mp4" />
-
     </Video>
     <Header />
+    <main>
+      <MovieInfo
+        imgUrl={movieLogo}
+        altText='Mario Bross Movie Logo'
+        text='Um dia, Mario e Luigi vão para no reino dos
+         cogumelos, governado pela Princesa Peach, mas
+         ameaçado pelo rei dos Koopas, Bowser, que vai
+         fazer de tudo para conseguir reinar todos os lugares.
+         É então quando Luigi é raptado por Bowser e o usa para
+         procurar Mario, o único capaz de deter o Koopa e
+         reestabelexcer a paz.'
+      />
+
+
+
+
+
+
+    </main>
  
   </Container>
  )
