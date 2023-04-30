@@ -2,6 +2,7 @@ import { Container, Video } from './App.js'
 
 import backgroundVideo from '../assets/background-video.mp4'
 import movieLogo from '../assets/logo-movie.png'
+import marioAndLuigi from '../assets/mario-and-luigi.png'
 
 import { Header } from '../Components/Header/Header.jsx'
 import { MovieInfo } from '../Components/MovieInfo/MovieInfo.jsx'
@@ -9,6 +10,7 @@ import { MovieInfo } from '../Components/MovieInfo/MovieInfo.jsx'
 export function App() {
  return (
   <Container>
+    <Header />
     <Video
      autoPlay
      loop
@@ -16,7 +18,6 @@ export function App() {
      >
       <source src={backgroundVideo} type="video/mp4" />
     </Video>
-    <Header />
     <main>
       <MovieInfo
         imgUrl={movieLogo}
@@ -30,11 +31,10 @@ export function App() {
          reestabelexcer a paz.'
       />
 
-
-
-
-
-
+        <img 
+          src={marioAndLuigi}
+          alt="Mario and Luigi"
+        />
     </main>
  
   </Container>
