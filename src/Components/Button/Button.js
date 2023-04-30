@@ -8,5 +8,5 @@ export const Container = styled.button`
   border: 1px solid ${({ theme, isActive}) => isActive ? theme.COLORS.RED: theme.COLORS.GREEN};
   border-radius: 5px;
 
-  margin-left: 45px;
+  margin-left: 30px;
 `;
