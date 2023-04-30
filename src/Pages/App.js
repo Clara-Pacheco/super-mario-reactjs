@@ -1,7 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  
+  > main {
+    height: 100vh;
+
+    margin-right: 150px;
+    margin-left: 150px;
+
+    border: 3px solid white;
+  }
 `;
 
 export const Video = styled.video`
