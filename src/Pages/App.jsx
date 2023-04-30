@@ -34,10 +34,12 @@ export function App() {
         />
        
           <Button
+            url='https://www.thesupermariobros.movie/videos/'
             text='Assistir o Trailer'
             isActive
           />
           <Button
+            url='https://www.universalpics.com.br/micro/super-mario-bros#iframe1'
             text='Comprar Ingresso'
           />
           
