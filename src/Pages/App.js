@@ -5,14 +5,13 @@ export const Container = styled.div`
 `;
 
 export const Video = styled.video`
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  objectFit: fill;
-  transform: translate(-50%,-50%);
-  z-index:-1;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 
 `;
 
