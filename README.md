@@ -27,8 +27,9 @@ Main points addressed in the project:
 - Destructuring;
 - Styled Components;
 - Add video to background in React;
-- Aos libray for animation;
+- Aos [AOS](https://michalsnik.github.io/aos/) libray for animation;
 - Effect react hook;
+- Effects with the `transform` css property
 
 <br>
 
