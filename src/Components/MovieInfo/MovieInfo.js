@@ -6,16 +6,14 @@ export const Container = styled.div`
 
   margin-top: 180px;
 
-  border: 2px solid blue;
-
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-items: center;
 
   > img {
-    width: 245px;
-    height: 245px;
+    width: 280px;
+    height: 230px;
 
     margin-bottom: 30px;
 
