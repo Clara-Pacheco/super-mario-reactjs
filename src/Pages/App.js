@@ -21,6 +21,9 @@ export const Container = styled.div`
         margin: auto;
       }
       @media (min-width: 1201px) {
+
+        overflow-y: hidden; 
+        
         height: 100%;
 
         margin-right: 150px;
@@ -68,9 +71,6 @@ export const Container = styled.div`
       
         }
         @media (min-width: 1200px){
-
-          overflow-y: hidden;
-          
           margin-top: 80px;
           margin-right: 100px;
           width: 680px;
