@@ -10,12 +10,26 @@ export const Container = styled.div`
   list-style: none;
 
   @media (max-width: 500px) {
-    
-    max-width: 500px;
+    display: none;
+  }
+  @media (min-width: 501px) {
+    width: 100wv;
     height: 100px;
 
-    padding: 10px;    
+    padding: 30px;
+
+    list-style: none;
+
   }
+  @media (min-width: 1200px){
+    width: 100wv;
+    height: 100px;
+
+    padding-left: 150px;
+    padding-right: 150px;
+      
+    }
+
 
   > div {
     display: flex;

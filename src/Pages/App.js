@@ -5,6 +5,7 @@ export const Container = styled.div`
   overflow-y: hidden;
 
   > main {
+    
     height: 100%;
 
     margin-right: 150px;
@@ -13,23 +14,22 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
 
-      @media (max-width: 500px) {
+      @media (max-width: 1200px) {
       
         display: flex;
         flex-direction: column;
         margin: auto;
       }
-      /* @media (max-width: 768px) {
-      
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
- 
-        margin-right: 0px;
-        margin-left: 0px;
-      } */
+      @media (min-width: 1201px) {
+        height: 100%;
 
+        margin-right: 150px;
+        margin-left: 150px;
+
+        display: flex;
+        justify-content: space-between; 
+      }
+      
     &::after {
       content: '';
       width: inherit;
@@ -54,13 +54,27 @@ export const Container = styled.div`
           height: 300px;
       
         }
-        /* @media (max-width: 768px) {
-          padding: 10px;
-          margin: 30px auto;
-          width: 500px;
-          height: 500px;
+
+        @media (min-width: 501px) {
+          margin: 300px auto;
+          width: 480px;
+          height: 480px;
       
-        } */
+        }
+        @media (min-width: 768px) {
+          margin: 100px auto;
+          width: 580px;
+          height: 580px;
+      
+        }
+        @media (min-width: 1200px){
+          margin-top: 80px;
+          margin-right: 100px;
+          width: 680px;
+          height: 750px;
+      
+        }
+        
     } 
   }
 
