@@ -28,10 +28,10 @@ export const Container = styled.button`
     align-items: center;
     justify-content: center;
 
-    margin: 25px auto;
+    margin: 25px auto 20px;
 
     position: relative;
-    top: 300px;
+    top: 330px;
       
   }
   @media (min-width: 501px) {
