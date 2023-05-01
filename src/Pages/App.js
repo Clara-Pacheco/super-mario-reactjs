@@ -68,6 +68,9 @@ export const Container = styled.div`
       
         }
         @media (min-width: 1200px){
+
+          overflow-y: hidden;
+          
           margin-top: 80px;
           margin-right: 100px;
           width: 680px;
