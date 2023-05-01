@@ -13,6 +13,23 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
 
+      @media (max-width: 500px) {
+      
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+      /* @media (max-width: 768px) {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ 
+        margin-right: 0px;
+        margin-left: 0px;
+      } */
+
     &::after {
       content: '';
       width: inherit;
@@ -30,10 +47,23 @@ export const Container = styled.div`
 
       margin-top: 80px;
       margin-right: 100px;
-    }
 
-   
+        @media (max-width: 500px) {
+          margin: 350px auto;
+          width: 300px;
+          height: 300px;
+      
+        }
+        /* @media (max-width: 768px) {
+          padding: 10px;
+          margin: 30px auto;
+          width: 500px;
+          height: 500px;
+      
+        } */
+    } 
   }
+
 `;
 
 export const Video = styled.video`
