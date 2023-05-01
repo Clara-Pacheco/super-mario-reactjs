@@ -6,6 +6,10 @@ export const Container = styled.li`
   margin-right: 30px;
 
 > a {
+
+  @media (max-width: 500px) {
+        font-size: 1.4rem;    
+  }
     
     &::after {
         content:'';
