@@ -30,24 +30,23 @@ export function App() {
       <div>
         <MovieInfo
           imgUrl={movieLogo}
-          altText='Mario Bross Movie Logo'
-          text='Um dia, Mario e Luigi vão para no reino dos
-          cogumelos, governado pela Princesa Peach, mas
-          ameaçado pelo rei dos Koopas, Bowser, que vai
-          fazer de tudo para conseguir reinar todos os lugares.
-          É então quando Luigi é raptado por Bowser e o usa para
-          procurar Mario, o único capaz de deter o Koopa e
-          reestabelecer a paz.'
+          altText='One day, Mario and Luigi end up in
+          the Mushroom Kingdom, ruled by Princess Peach
+          but threatened by the King of Koopas, Bowser,
+          who will do anything to reign over all the places.
+          It is then when Luigi is kidnapped by Bowser and used
+          to search for Mario, the only one capable of stopping
+          Koopa and restoring peace.'
         />
        
           <Button
             url='https://www.thesupermariobros.movie/videos/'
-            text='Assistir o Trailer'
+            text='Watch Trailer'
             isActive
           />
           <Button
             url='https://www.universalpics.com.br/micro/super-mario-bros#iframe1'
-            text='Comprar Ingresso'
+            text='Buy Ticket'
           />
           
         </div>
