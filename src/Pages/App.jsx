@@ -37,7 +37,7 @@ export function App() {
           fazer de tudo para conseguir reinar todos os lugares.
           É então quando Luigi é raptado por Bowser e o usa para
           procurar Mario, o único capaz de deter o Koopa e
-          reestabelexcer a paz.'
+          reestabelecer a paz.'
         />
        
           <Button
