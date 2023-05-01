@@ -30,7 +30,8 @@ export function App() {
       <div>
         <MovieInfo
           imgUrl={movieLogo}
-          altText='One day, Mario and Luigi end up in
+          altText='Movie logo'
+          text='One day, Mario and Luigi end up in
           the Mushroom Kingdom, ruled by Princess Peach
           but threatened by the King of Koopas, Bowser,
           who will do anything to reign over all the places.
