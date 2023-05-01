@@ -9,6 +9,14 @@ export const Container = styled.div`
 
   list-style: none;
 
+  @media (max-width: 500px) {
+    
+    max-width: 500px;
+    height: 100px;
+
+    padding: 10px;    
+  }
+
   > div {
     display: flex;
     align-items: center;
@@ -17,6 +25,12 @@ export const Container = styled.div`
     > img {
       width: 80px;
       margin-right: 40px;
+
+      @media (max-width: 500px) {
+        width: 50px;
+        margin-right: 35px; 
+        margin-left: 20px;   
+  }
 
     }
   }
