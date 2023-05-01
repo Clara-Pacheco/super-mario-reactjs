@@ -18,4 +18,16 @@ export const Container = styled.button`
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3px;
+
+  @media (max-width: 500px) {
+    
+    width: 300px;
+    height: 80px;
+    margin-bottom: 10px;
+
+    position: relative;
+    top: 300px;
+    left: 100px;
+      
+  }
 `;
