@@ -74,7 +74,8 @@ export const Container = styled.div`
     text-align: justify;
 
     @media (min-width: 1200px){
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    font-weight: 300;
     text-align: justify;
 
  }
