@@ -21,8 +21,8 @@ export const Container = styled.button`
 
   @media (max-width: 500px) {
     
-    width: 300px;
-    height: 80px;
+    width: 250px;
+    height: 70px;
 
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ export const Container = styled.button`
   @media (min-width: 501px) {
     
     width: 350px;
-    height: 80px;
+    height: 70px;
 
     display: flex;
     align-items: center;
@@ -51,9 +51,9 @@ export const Container = styled.button`
   }
   @media (min-width: 768px) {
 
-    width: 500px;
-    height: 80px;
-  
+    width: 400px;
+    height: 70px;
+
     position: relative;
     top:0; 
   
@@ -61,6 +61,7 @@ export const Container = styled.button`
   @media (min-width: 1201px) {
 
     width: 280px;
+    height: 70px;
     padding: 10px 0;
     margin-right: 25px;
     margin-top: 10px;
