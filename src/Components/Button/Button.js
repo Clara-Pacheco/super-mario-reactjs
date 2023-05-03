@@ -13,8 +13,8 @@ export const Container = styled.button`
 
   transform: skew(-10deg);
 
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3px;
