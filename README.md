@@ -53,7 +53,7 @@ The end result of this challenge should be something around:
 
 <br>  
 
-<!-- ## 📝 About  -->
+## 📝 About 
 
 
 
