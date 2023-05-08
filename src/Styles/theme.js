@@ -7,5 +7,6 @@ export default {
     YELLOW:"#ffc12b",
     BLACK: "#000",
     SVG: "#77797E",
+    WHITE: "#FFF",
   }
 }
