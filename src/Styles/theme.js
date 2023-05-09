@@ -8,5 +8,6 @@ export default {
     BLACK: "#000",
     SVG: "#77797E",
     WHITE: "#FFF",
+    DARKBLUE: "#01C2",
   }
 }
