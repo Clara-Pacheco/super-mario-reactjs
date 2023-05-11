@@ -6,7 +6,6 @@ export const NavbarContainer = styled.nav`
   background-color: ${({ theme }) => theme.COLORS.BACK};
   display: flex;
   flex-direction: column;
-
 `;
 
 export const LeftContainer = styled.div`
@@ -22,6 +21,10 @@ export const LeftContainer = styled.div`
     margin-right: 50px;
   }
 
+  @media (max-width: 1200px){
+    display:none;
+  }
+
 `;
 
 export const RightContainer = styled.div`
@@ -32,6 +35,10 @@ export const RightContainer = styled.div`
   gap: 20px;
   padding-left: 50px;
   border: 1px solid green;
+
+  @media (max-width: 1400px){
+    display:none;
+  }
 
 `;
 
@@ -51,7 +58,10 @@ export const OpenLinksButton = styled.button`
   font-size: 45px;
   cursor: pointer;
 
-  @media (min-width: 700px) {
+  padding: 10px;
+  margin-left: 10px;
+
+  @media (min-width: 1200px) {
     display: none;
   }
 
