@@ -60,7 +60,6 @@ export function Header() {
               menuItem="Trailer"
               url="https://www.thesupermariobros.movie/videos/"
             />
-            <OpenLinksButton>&#8801;</OpenLinksButton>
           </LeftContainer>
           <RightContainer>
               <Social
@@ -89,8 +88,10 @@ export function Header() {
                 textAlt = 'YouTube Logo'
               />
           </RightContainer>
+        <OpenLinksButton>&#8801;</OpenLinksButton>
       </NavbarInnerContainer>
       <NavbarExtendedContainer></NavbarExtendedContainer>
     </NavbarContainer>
+    
   )
 }
