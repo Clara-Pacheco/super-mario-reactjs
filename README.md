@@ -78,7 +78,7 @@ The end result of this challenge should be something around:
 
 📅 **Conclusão:** 30.04.2023
 
-🕛 **Status:** Working on responsivity ✔
+🕛 **Status:** Finished - fully responsive ✔
 
 🌎 **Result Preview:**   [Link](supermariomovie.vercel.app)
 
