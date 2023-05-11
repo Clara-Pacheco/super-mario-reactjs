@@ -17,7 +17,6 @@ export const LeftContainer = styled.div`
   display: flex;
   align-items: center;
   padding-left: 5%;
-  border: 1px solid red;
 
   > img {
     width: 100px;
@@ -38,7 +37,6 @@ export const RightContainer = styled.div`
   align-items: center;
   gap: 20px;
   padding-left: 50px;
-  border: 1px solid green;
 
   @media (max-width: 1400px){
     display:none;
