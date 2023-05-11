@@ -41,6 +41,19 @@ export const NavbarInnerContainer = styled.div`
   height: 80px;
   display: flex;
 `;
+
+export const OpenLinksButton = styled.button`
+  width: 70px;
+  height: 50px;
+  background: none;
+  border: none;
+  color: ${({ theme }) => theme.COLORS.WHITE};
+  font-size: 45px;
+  cursor: pointer;
+
+`;
+
+
 export const NavbarExtendedContainer = styled.div`
 
 `;
