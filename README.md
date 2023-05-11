@@ -28,7 +28,7 @@ Main points addressed in the project:
 - Styled Components;
 - Add video to background in React;
 - Aos [AOS](https://michalsnik.github.io/aos/) libray for animation;
-- Effect react hook;
+- State react hook;
 - Effects with the `transform` css property
 
 <br>
