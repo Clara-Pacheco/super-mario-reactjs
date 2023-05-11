@@ -1,67 +1,46 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const NavbarContainer = styled.nav`
+  width: 100%;
+  height: 80px;
+  background-color: ${({ theme }) => theme.COLORS.BACK};
+  display: flex;
+  flex-direction: column;
 
-  > nav {
-    width: 100wv;
-    height: 100px;
+`;
 
-    padding-left: 150px;
-    padding-right: 150px;
+export const LeftContainer = styled.div`
+  flex: 70%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  border: 1px solid red;
 
-    list-style: none;
+  > img {
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-    @media (max-width: 500px) {
-      display: none;
-    }
-    @media (min-width: 501px) {
-      width: 100wv;
-      height: 100px;
+`;
 
-      padding: 30px;
+export const RightContainer = styled.div`
+  flex: 30%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding-left: 50px;
+  border: 1px solid green;
 
-      list-style: none;
-
-    }
-    @media (min-width: 1200px){
-      width: 100wv;
-      height: 100px;
-
-      padding-left: 150px;
-      padding-right: 150px;
-        
-      }
+`;
 
 
-    > div {
-      display: flex;
-      align-items: center;
-      
+export const NavbarInnerContainer = styled.div`
+  width: 100%;
+  height: 80px;
+  display: flex;
+`;
+export const NavbarExtendedContainer = styled.div`
 
-      > img {
-        width: 80px;
-        margin-right: 40px;
-
-        @media (max-width: 500px) {
-          width: 50px;
-          margin-right: 35px; 
-          margin-left: 20px;   
-      }
-
-      }
-    }
-
-    > div {
-      > button {
-        @media (max-width: 1200px) {
-        visibility: visible;
-        opacity: 1;
-      }
-      }
-    }
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    }     
 `;
