@@ -1,4 +1,5 @@
-// import { useRef } from 'react'
+/* eslint-disable no-undef */
+import { useState } from 'react'
 
 import { NavbarContainer, LeftContainer, RightContainer, NavbarInnerContainer, NavbarExtendedContainer, OpenLinksButton } from './Header.js'
 
@@ -18,29 +19,7 @@ import youtubeLogo from '../../assets/svg/youtube.svg'
 
 
 export function Header() {
-  // const navRef = useRef()
-
-  // const showNavbar = () => {
-  //   navRef.current.classList.toggle("responsive_nav")
-  // }
-
-  // const navBtn = {
-  //   padding: "5px",
-  //   fontSize: "35px",
-  //   marginTop: "10px",
-  //   cursor: "pointer",
-  //   background: "transparent",
-  //   color:"#E0E0E1",
-  //   border: "none",
-  //   outline: "none",
-  //   visibility: "hidden",
-  //   opacity: "0",
-  // }
-
-  // const navCloseBtn = {
-
-  // }
-
+  const [extendNavbar, setExtendNavbar] = useState(false)
   return (
     <NavbarContainer>
       <NavbarInnerContainer>
@@ -88,7 +67,15 @@ export function Header() {
                 textAlt = 'YouTube Logo'
               />
           </RightContainer>
-        <OpenLinksButton>&#8801;</OpenLinksButton>
+        <OpenLinksButton
+          onClick={() => {   
+            setExtendNavbar((curr)=> !curr)
+        }}
+        
+        >
+          {extendNavbar ? <> &#10005;</> : <> &#8801;</>}
+
+        </OpenLinksButton>
       </NavbarInnerContainer>
       <NavbarExtendedContainer></NavbarExtendedContainer>
     </NavbarContainer>
