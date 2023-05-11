@@ -2,10 +2,14 @@ import styled from "styled-components";
 
 export const NavbarContainer = styled.nav`
   width: 100%;
-  height: 80px;
+  height: ${( props ) => (props.extendNavbar ? '100vh' : ' 80px')};
   background-color: ${({ theme }) => theme.COLORS.BACK};
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 760px){
+    height: 80px;
+  }
 `;
 
 export const LeftContainer = styled.div`
@@ -69,5 +73,16 @@ export const OpenLinksButton = styled.button`
 
 
 export const NavbarExtendedContainer = styled.div`
+  width: 100%;
+  height: 100vh;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+
+  @media (min-width: 760px) {
+    display: none;
+  }
 `;
