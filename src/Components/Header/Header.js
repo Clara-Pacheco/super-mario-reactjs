@@ -51,6 +51,10 @@ export const OpenLinksButton = styled.button`
   font-size: 45px;
   cursor: pointer;
 
+  @media (min-width: 700px) {
+    display: none;
+  }
+
 `;
 
 
