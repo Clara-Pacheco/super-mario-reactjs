@@ -1,6 +1,6 @@
 // import { useRef } from 'react'
 
-import { NavbarContainer, LeftContainer, RightContainer, NavbarInnerContainer, NavbarExtendedContainer } from './Header.js'
+import { NavbarContainer, LeftContainer, RightContainer, NavbarInnerContainer, NavbarExtendedContainer, OpenLinksButton } from './Header.js'
 
 import logoCap from '../../assets/logo-cap.png'
 
@@ -60,6 +60,7 @@ export function Header() {
               menuItem="Trailer"
               url="https://www.thesupermariobros.movie/videos/"
             />
+            <OpenLinksButton>&#8801;</OpenLinksButton>
           </LeftContainer>
           <RightContainer>
               <Social
