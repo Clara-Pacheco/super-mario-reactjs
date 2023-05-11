@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.li`
   position: relative;
 
-  margin-right: 100px;
+  margin-right: 50px;
   list-style: none;
 
 > a {
