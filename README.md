@@ -55,8 +55,6 @@ The end result of this challenge should be something around:
 
 ## 📝 About 
 
-Certainly! Here's a revised and expanded version of the text you provided:
-
 I recently took on a project that was originally built using HTML, CSS, and Vanilla JS. However, in order to hone my skills with ReactJS, I decided to rebuild the project using this powerful and popular framework.
 
 As part of my efforts to become proficient in React, I made use of a variety of important techniques and features, including React components and properties. I also utilized conditional rendering, leveraging the ternary operator to create dynamic and responsive interfaces.
