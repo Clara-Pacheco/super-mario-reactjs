@@ -21,7 +21,7 @@ export const LeftContainer = styled.div`
     margin-right: 50px;
   }
 
-  @media (max-width: 1200px){
+  @media (max-width: 760px){
     display:none;
   }
 
@@ -61,7 +61,7 @@ export const OpenLinksButton = styled.button`
   padding: 10px;
   margin-left: 10px;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 760px) {
     display: none;
   }
 
