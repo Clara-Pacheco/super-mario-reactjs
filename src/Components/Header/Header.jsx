@@ -21,7 +21,7 @@ import youtubeLogo from '../../assets/svg/youtube.svg'
 export function Header() {
   const [extendNavbar, setExtendNavbar] = useState(false)
   return (
-    <NavbarContainer>
+    <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
             <img src={logoCap} alt="Mario's cap" />
