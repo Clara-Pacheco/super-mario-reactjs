@@ -77,7 +77,24 @@ export function Header() {
 
         </OpenLinksButton>
       </NavbarInnerContainer>
-      <NavbarExtendedContainer></NavbarExtendedContainer>
+      { extendNavbar && (
+      <NavbarExtendedContainer>
+      <ListItem 
+              menuItem="Home"
+              url="https://www.thesupermariobros.movie/home/"
+            />
+            <ListItem 
+              menuItem="Story"
+              url="https://www.thesupermariobros.movie/synopsis/" />
+            <ListItem 
+              menuItem="Wallpapers"
+              url="https://www.thesupermariobros.movie/character-gallery/" />
+            <ListItem 
+              menuItem="Trailer"
+              url="https://www.thesupermariobros.movie/videos/"
+            />
+      </NavbarExtendedContainer>
+      )}
     </NavbarContainer>
     
   )
